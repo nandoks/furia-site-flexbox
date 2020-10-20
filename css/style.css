@@ -1,0 +1,287 @@
+body, h1, h2, p, ul, li, a{
+    margin: 0px;
+    padding:0px;
+    color: #f8f8f8;
+}
+
+
+body{
+    font-family: "Nunito", Helvetica, Arial, sans-serif;
+    background: #222222;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Superinfo-furia*/
+.superinfo-bg{
+    background: #087ca7;
+    color: #f8f8f8;
+}
+
+.superinfo{
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.superinfo p, .superinfo a{
+    padding: 10px;
+}
+
+.superinfo a{
+    color: #f8f8f8;
+}
+
+/* Menu */
+
+.menu-bg{
+    background: #004961;
+}
+
+.menu{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 15px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.menu a{
+    color: #f8f8f8;
+}
+
+.menu-logo a{
+    font-size: 2.5em;
+    margin: 0 10px;
+}
+
+.menu-nav ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu-nav a{
+    font-size: 1.25em;
+    display: block;
+    padding: 10px;
+}
+
+.menu-nav a:hover{
+    color: #087ca7
+}
+
+/* Introduction */
+
+.introduction{
+    font-size: 3em;
+    line-height: 1;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px 10px;
+}
+
+.about{
+    border-top: 2px solid #087ca7;
+    border-bottom: 2px solid #087ca7;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.about-info{
+    flex: 2 1 300px;
+    margin: 0 20px;
+}
+
+.about-info h1{
+    font-size: 3em;
+    margin-bottom: .2em;
+}
+
+.about-info p{
+    line-height: 1.4;
+    margin-bottom: 1em;
+    margin-left: .5em;
+}
+
+.about-img{
+    min-width: 225px;
+    max-width: 300px;
+    flex: 1 1 160px;
+    margin: 0 10px;
+}
+
+@media (max-width:800px){
+    .about :nth-child(2){
+        order: -1;
+    }
+}
+
+
+/* Achievements*/
+.achievements{
+    max-width: 960px;
+    margin: 30px auto;
+    padding: 0 20px;
+    border-bottom: 2px solid #087ca7;
+    padding-bottom: 30px;
+}
+
+.achievements h1{
+    font-size: 3em;
+    padding: 20px 0 20px 0;
+    
+}
+
+.achievements-container{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.achievements-item{
+    flex: 1 1 200px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    justify-content: space-between;
+    border-top: 4px solid #087ca7;
+    max-width: 300px;
+}
+
+.achievements-item h3{
+    font-size: 2em;
+    color: gold;
+}
+
+.achievements-item h2{
+    font-size: 1.5em;
+    padding: 20px 20px;
+    
+}
+
+
+
+/* Team */
+
+.team{
+    
+    padding: 60px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+.team-player{
+    flex: 1 1 150px;
+    border: 4px solid #004961;
+    padding: 20px;
+    margin: 20px;
+    min-width: 160px;
+    max-width: 200px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.team-player h2{
+    font-size: 1.5em;
+    color: #087ca7;
+    margin-top: 10px;
+    max-width: 200px;
+    margin-bottom: 5px;
+}
+.team-player li{
+    margin-bottom: 12px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+/* Upcoming */
+.upcoming{
+    max-width: 960px;
+    margin: 30px auto;
+    padding: 30px 20px;
+    border-top: 2px solid #087ca7;
+}
+
+.upcoming-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    text-align: center;
+}
+
+.upcoming h1{
+    font-size: 3em;
+    margin: 20px 0 30px 0;
+    text-align: center;
+    
+}
+
+.upcoming-item{
+    flex: 1 1 300px;
+    max-width: 250px;
+    margin: 10px;
+    padding: 30px;
+    border-top: 4px solid #087ca7;
+    
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.upcoming-item h2{
+    font-size: 1.5em;
+}
+
+.upcoming-item p{
+    padding-top: 10px;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+.footer-bg{
+    background: #087ca7;
+    padding: 20px;
+    display:flex;
+    align-content: center;
+}
+
+.footer{
+    margin: 0 auto;
+
+}
